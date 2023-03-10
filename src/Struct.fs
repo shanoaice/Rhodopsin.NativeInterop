@@ -3,7 +3,9 @@
 open System
 open System.Runtime.InteropServices
 
-// #[repr(C)]
+/// <summary>
+/// Represents raw parts of a Rust `Vec<T>`, 
+/// </summary>
 [<StructLayout(LayoutKind.Sequential)>]
 type FFIVector =
     struct

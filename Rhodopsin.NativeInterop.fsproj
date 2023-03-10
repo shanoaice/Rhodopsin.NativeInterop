@@ -6,8 +6,149 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Struct.fs" />
-    <Compile Include="Vector.fs" />
+    <Compile Include="src/Struct.fs" />
+    <Compile Include="src/Vector.fs" />
+    <Content Include="docfx_project\_site\styles\search-worker.min.js">
+      <Link>src\docfx_project\_site\styles\search-worker.min.js</Link>
+    </Content>
+    <Content Include="docfx_project\_site\styles\main.js">
+      <Link>src\docfx_project\_site\styles\main.js</Link>
+    </Content>
+    <Content Include="docfx_project\_site\styles\main.css">
+      <Link>src\docfx_project\_site\styles\main.css</Link>
+    </Content>
+    <Content Include="docfx_project\_site\styles\docfx.vendor.js">
+      <Link>src\docfx_project\_site\styles\docfx.vendor.js</Link>
+    </Content>
+    <Content Include="docfx_project\_site\styles\docfx.vendor.css">
+      <Link>src\docfx_project\_site\styles\docfx.vendor.css</Link>
+    </Content>
+    <Content Include="docfx_project\_site\styles\docfx.js">
+      <Link>src\docfx_project\_site\styles\docfx.js</Link>
+    </Content>
+    <Content Include="docfx_project\_site\styles\docfx.css">
+      <Link>src\docfx_project\_site\styles\docfx.css</Link>
+    </Content>
+    <Content Include="docfx_project\_site\fonts\glyphicons-halflings-regular.woff2">
+      <Link>src\docfx_project\_site\fonts\glyphicons-halflings-regular.woff2</Link>
+    </Content>
+    <Content Include="docfx_project\_site\fonts\glyphicons-halflings-regular.woff">
+      <Link>src\docfx_project\_site\fonts\glyphicons-halflings-regular.woff</Link>
+    </Content>
+    <Content Include="docfx_project\_site\fonts\glyphicons-halflings-regular.ttf">
+      <Link>src\docfx_project\_site\fonts\glyphicons-halflings-regular.ttf</Link>
+    </Content>
+    <Content Include="docfx_project\_site\fonts\glyphicons-halflings-regular.svg">
+      <Link>src\docfx_project\_site\fonts\glyphicons-halflings-regular.svg</Link>
+    </Content>
+    <Content Include="docfx_project\_site\fonts\glyphicons-halflings-regular.eot">
+      <Link>src\docfx_project\_site\fonts\glyphicons-halflings-regular.eot</Link>
+    </Content>
+    <Content Include="docfx_project\_site\articles\toc.html">
+      <Link>src\docfx_project\_site\articles\toc.html</Link>
+    </Content>
+    <Content Include="docfx_project\_site\articles\intro.html">
+      <Link>src\docfx_project\_site\articles\intro.html</Link>
+    </Content>
+    <Content Include="docfx_project\_site\api\toc.html">
+      <Link>src\docfx_project\_site\api\toc.html</Link>
+    </Content>
+    <Content Include="docfx_project\_site\api\Rhodopsin.NativeInterop.Vector.html">
+      <Link>src\docfx_project\_site\api\Rhodopsin.NativeInterop.Vector.html</Link>
+    </Content>
+    <Content Include="docfx_project\_site\api\Rhodopsin.NativeInterop.Vector.FromFFI.html">
+      <Link>src\docfx_project\_site\api\Rhodopsin.NativeInterop.Vector.FromFFI.html</Link>
+    </Content>
+    <Content Include="docfx_project\_site\api\Rhodopsin.NativeInterop.Struct.html">
+      <Link>src\docfx_project\_site\api\Rhodopsin.NativeInterop.Struct.html</Link>
+    </Content>
+    <Content Include="docfx_project\_site\api\Rhodopsin.NativeInterop.Struct.FFIVector.html">
+      <Link>src\docfx_project\_site\api\Rhodopsin.NativeInterop.Struct.FFIVector.html</Link>
+    </Content>
+    <Content Include="docfx_project\_site\api\Rhodopsin.NativeInterop.html">
+      <Link>src\docfx_project\_site\api\Rhodopsin.NativeInterop.html</Link>
+    </Content>
+    <Content Include="docfx_project\_site\api\index.html">
+      <Link>src\docfx_project\_site\api\index.html</Link>
+    </Content>
+    <Content Include="docfx_project\_site\xrefmap.yml">
+      <Link>src\docfx_project\_site\xrefmap.yml</Link>
+    </Content>
+    <Content Include="docfx_project\_site\toc.html">
+      <Link>src\docfx_project\_site\toc.html</Link>
+    </Content>
+    <Content Include="docfx_project\_site\search-stopwords.json">
+      <Link>src\docfx_project\_site\search-stopwords.json</Link>
+    </Content>
+    <Content Include="docfx_project\_site\manifest.json">
+      <Link>src\docfx_project\_site\manifest.json</Link>
+    </Content>
+    <Content Include="docfx_project\_site\logo.svg">
+      <Link>src\docfx_project\_site\logo.svg</Link>
+    </Content>
+    <Content Include="docfx_project\_site\index.html">
+      <Link>src\docfx_project\_site\index.html</Link>
+    </Content>
+    <Content Include="docfx_project\_site\favicon.ico">
+      <Link>src\docfx_project\_site\favicon.ico</Link>
+    </Content>
+    <Content Include="docfx_project\articles\toc.yml">
+      <Link>src\docfx_project\articles\toc.yml</Link>
+    </Content>
+    <Content Include="docfx_project\articles\intro.md">
+      <Link>src\docfx_project\articles\intro.md</Link>
+    </Content>
+    <Content Include="docfx_project\api\toc.yml">
+      <Link>src\docfx_project\api\toc.yml</Link>
+    </Content>
+    <Content Include="docfx_project\api\Rhodopsin.NativeInterop.yml">
+      <Link>src\docfx_project\api\Rhodopsin.NativeInterop.yml</Link>
+    </Content>
+    <Content Include="docfx_project\api\Rhodopsin.NativeInterop.Vector.yml">
+      <Link>src\docfx_project\api\Rhodopsin.NativeInterop.Vector.yml</Link>
+    </Content>
+    <Content Include="docfx_project\api\Rhodopsin.NativeInterop.Vector.FromFFI.yml">
+      <Link>src\docfx_project\api\Rhodopsin.NativeInterop.Vector.FromFFI.yml</Link>
+    </Content>
+    <Content Include="docfx_project\api\Rhodopsin.NativeInterop.Struct.yml">
+      <Link>src\docfx_project\api\Rhodopsin.NativeInterop.Struct.yml</Link>
+    </Content>
+    <Content Include="docfx_project\api\Rhodopsin.NativeInterop.Struct.FFIVector.yml">
+      <Link>src\docfx_project\api\Rhodopsin.NativeInterop.Struct.FFIVector.yml</Link>
+    </Content>
+    <Content Include="docfx_project\api\index.md">
+      <Link>src\docfx_project\api\index.md</Link>
+    </Content>
+    <Content Include="docfx_project\api\.manifest">
+      <Link>src\docfx_project\api\.manifest</Link>
+    </Content>
+    <Content Include="docfx_project\api\.gitignore">
+      <Link>src\docfx_project\api\.gitignore</Link>
+    </Content>
+    <Content Include="docfx_project\toc.yml">
+      <Link>src\docfx_project\toc.yml</Link>
+    </Content>
+    <Content Include="docfx_project\index.md">
+      <Link>src\docfx_project\index.md</Link>
+    </Content>
+    <Content Include="docfx_project\docfx.json">
+      <Link>src\docfx_project\docfx.json</Link>
+    </Content>
+    <Content Include="docfx_project\.gitignore">
+      <Link>src\docfx_project\.gitignore</Link>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="docfx_project\apidoc">
+      <Link>src\docfx_project\apidoc</Link>
+    </Folder>
+    <Folder Include="docfx_project\images">
+      <Link>src\docfx_project\images</Link>
+    </Folder>
+    <Folder Include="docfx_project\src">
+      <Link>src\docfx_project\src</Link>
+    </Folder>
   </ItemGroup>
 
 </Project>
