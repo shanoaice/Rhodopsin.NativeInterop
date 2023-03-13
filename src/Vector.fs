@@ -31,6 +31,15 @@ type Vector(vecBuffer: nativeint, vecLength: unativeint, vecCapacity: unativeint
         // you will not be able to access any element beyond i32::MAX, due to limit of CLR
         new Span<'T>(NativeInterop.NativePtr.toVoidPtr rawPtr, int this.Length)
 
+    /// <summary>
+    /// Represents the underlying <c>Vec&lt;T&gt;</c> data as a <c>System.Span&lt;T&gt;</c>, including the empty space at the end.<br/>
+    /// Due to CLR limit, you will not be able to access any element beyond <c>Int32.MaxValue</c>.  
+    /// </summary>
+    member this.AsSpanAll<'T when 'T: unmanaged>() =
+        let rawPtr = NativeInterop.NativePtr.ofNativeInt<'T> this.Buffer
+        // int (this.len) might possibly truncate length
+        // you will not be able to access any element beyond i32::MAX, due to limit of CLR
+        new Span<'T>(NativeInterop.NativePtr.toVoidPtr rawPtr, int this.Capacity)
     member this.AsReadOnlySpan<'T when 'T: unmanaged>() =
         let rawPtr = NativeInterop.NativePtr.ofNativeInt<'T> this.Buffer
         // int (this.len) might possibly truncate length
