@@ -44,4 +44,4 @@ type CLRString(strPtr: nativeint, strSize: unativeint) =
     override this.ToString() =
         let rawPtr = NativeInterop.NativePtr.ofNativeInt<char> this.Pointer
         let charSpan = ReadOnlySpan<char>(NativeInterop.NativePtr.toVoidPtr rawPtr, int this.Size)
-        String(charSpan.ToArray())
+        String(charSpan)
