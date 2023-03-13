@@ -6,7 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="src\Free.fs" />
+    <Compile Include="src\String.fs" />
     <Compile Include="src\Vector.fs" />
+    <Compile Include="src\TaggedUnion.fs" />
     <Content Include="docfx_project\_site\styles\search-worker.min.js">
       <Link>src\docfx_project\_site\styles\search-worker.min.js</Link>
     </Content>
