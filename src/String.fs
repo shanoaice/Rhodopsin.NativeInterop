@@ -84,9 +84,8 @@ type CLRString(strPtr: nativeint, strSize: unativeint) =
     /// Returns the original <c>System.String</c> representation of the string. Note that this requires allocation, thus you should avoid using this whenever possible and use normal <c>System.String</c> instead.
     /// </summary>
     override this.ToString() =
-        let rawPtr = NativeInterop.NativePtr.ofNativeInt<char> this.Pointer
-        let charSpan = ReadOnlySpan<char>(NativeInterop.NativePtr.toVoidPtr rawPtr, int this.Size)
-        String(charSpan)
+        let rawPtr = NativeInterop.NativePtr.ofNativeInt<byte> this.Pointer
+        Encoding.Unicode.GetString(ReadOnlySpan(NativeInterop.NativePtr.toVoidPtr rawPtr, int this.Size))
         
     /// <summary>
     /// Copies a UTF-16 encoded <c>System.String</c> into unmanaged memory and returns its representation in <see cref="T:Rhodopsin.NativeInterop.CLRString"/>. This method requires allocation. For security notices, please see the remarks section.
