@@ -14,8 +14,11 @@ type RustString(strPtr: nativeint, strSize: unativeint) =
     /// </summary>
     member this.Pointer = strPtr
     /// <summary>
-    /// The number of bytes the whole string occupies. Note that this does not necessarily equals to <c>String.Length</c> since UTF-8 is a variable-length encoding. Also note that according to Rust document this equals to <c>String.len()</c>.
+    /// The number of bytes the whole string occupies.
     /// </summary>
+    /// <remarks>
+    /// This does not necessarily equals to <c>String.Length</c> since UTF-8 is a variable-length encoding. Also, according to Rust document this equals to <c>String.len()</c>.
+    /// </remarks>
     member this.Size = strSize
 
     /// <summary>
@@ -31,11 +34,18 @@ type RustString(strPtr: nativeint, strSize: unativeint) =
 /// <summary>
 /// Represents raw parts of a .NET CLR <c>System.String</c>, encoded in UTF-16. Content in ptr does not need to be null-terminated and can contain embedded null character.
 /// </summary>
-/// <param name="strPtr">The pointer to the string buffer.</param>
-/// <param name="strSize">The number of bytes the whole string occupies. Note that this does not necessarily equals to <c>String.Length</c> since UTF-16 is a variable-length encoding.</param>
 [<Struct; StructLayout(LayoutKind.Sequential)>]
 type CLRString(strPtr: nativeint, strSize: unativeint) =
+    /// <summary>
+    /// The pointer to the string buffer.
+    /// </summary>
     member this.Pointer = strPtr
+    /// <summary>
+    /// The number of bytes the whole string occupies.
+    /// </summary>
+    /// <remarks>
+    /// This does not necessarily equals to <c>String.Length</c> since UTF-16 is a variable-length encoding.
+    /// </remarks>
     member this.Size = strSize
 
     /// <summary>
