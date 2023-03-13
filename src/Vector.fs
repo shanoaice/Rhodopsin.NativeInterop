@@ -14,32 +14,32 @@ open System.Runtime.InteropServices
 [<StructLayout(LayoutKind.Sequential); Struct>]
 type Vector(vecBuffer: nativeint, vecLength: unativeint, vecCapacity: unativeint) =
     /// The pointer that points to the content of the Vector.
-    member this.buffer = vecBuffer
+    member this.Buffer = vecBuffer
     /// The length of the Vector.
-    member this.len = vecLength
+    member this.Length = vecLength
     /// <summary>
     /// The capacity of the Vector (can contain <c>len &lt;= capacity</c> without realloc).
     /// </summary>
-    member this.capacity = vecCapacity
+    member this.Capacity = vecCapacity
 
     /// <summary>
     /// Represents the underlying <c>Vec&lt;T&gt;</c> data as a <c>System.Span&lt;T&gt;</c>.
     /// </summary>
     member this.AsSpan<'T when 'T: unmanaged>() =
-        let rawPtr = NativeInterop.NativePtr.ofNativeInt<'T> this.buffer
+        let rawPtr = NativeInterop.NativePtr.ofNativeInt<'T> this.Buffer
         // int (this.len) might possibly truncate length
         // you will not be able to access any element beyond i32::MAX, due to limit of CLR
-        new Span<'T>(NativeInterop.NativePtr.toVoidPtr rawPtr, int this.len)
+        new Span<'T>(NativeInterop.NativePtr.toVoidPtr rawPtr, int this.Length)
 
     member this.AsReadOnlySpan<'T when 'T: unmanaged>() =
-        let rawPtr = NativeInterop.NativePtr.ofNativeInt<'T> this.buffer
+        let rawPtr = NativeInterop.NativePtr.ofNativeInt<'T> this.Buffer
         // int (this.len) might possibly truncate length
         // you will not be able to access any element beyond i32::MAX, due to limit of CLR
-        new ReadOnlySpan<'T>(NativeInterop.NativePtr.toVoidPtr rawPtr, int this.len)
+        new ReadOnlySpan<'T>(NativeInterop.NativePtr.toVoidPtr rawPtr, int this.Length)
 
-    member this.FromVecStrAsPtr() =
-        let rawPtr = NativeInterop.NativePtr.ofNativeInt<nativeint> this.buffer
-        let length = this.len
+    member this.FromVecCStrAsPtr() =
+        let rawPtr = NativeInterop.NativePtr.ofNativeInt<nativeint> this.Buffer
+        let length = this.Length
 
         seq {
             for i in 0 .. (int length - 1) do
@@ -47,8 +47,8 @@ type Vector(vecBuffer: nativeint, vecLength: unativeint, vecCapacity: unativeint
         }
 
     member this.FromVecVecUTF16Char() =
-        let rawPtr = NativeInterop.NativePtr.ofNativeInt<Vector> this.buffer
-        let length = this.len
+        let rawPtr = NativeInterop.NativePtr.ofNativeInt<Vector> this.Buffer
+        let length = this.Length
 
         let charVecSeq =
             seq {
