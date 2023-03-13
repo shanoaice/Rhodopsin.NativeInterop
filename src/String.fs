@@ -5,6 +5,24 @@ open System.Runtime.InteropServices
 open System.Text
 
 /// <summary>
+/// Represents the string marshal policy.
+/// </summary>
+type FFIStringPolicy =
+    /// <summary>
+    /// Represents the case when string is stored with a pointer to a C-style string.
+    /// This essentially means <c>&amp;CStr</c> in Rust.
+    /// </summary>
+    | CStrPtr = 0
+    /// <summary>
+    /// Represents the case when string is stored in forms of <see cref="T:Rhodopsin.NativeInterop.RustString"/>.
+    /// </summary>
+    | RustString = 1
+    /// <summary>
+    /// Represents the case when string is stored in forms of <see cref="T:Rhodopsin.NativeInterop.CLRString"/>.
+    /// </summary>
+    | CLRString = 2
+
+/// <summary>
 /// Represents raw parts of a Rust <c>String</c>, encoded in UTF-8. Content in ptr does not need to be null-terminated and can contain embedded null character.
 /// </summary>
 [<Struct; StructLayout(LayoutKind.Sequential)>]
