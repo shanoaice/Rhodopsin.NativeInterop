@@ -1,4 +1,10 @@
-﻿jobs:
+name: Build and Deploy DocFX api docs
+on:
+  workflow_dispatch:
+  release:
+    types:
+      - published
+jobs:
   publish-docs:
     runs-on: ubuntu-latest
     steps:
@@ -9,13 +15,14 @@
         with:
           dotnet-version: 7.x
 
-      - run: dotnet tool update -g docfx
-      - run: dotnet restore
-      - run: dotnet build -c Release
+      - run: | 
+          dotnet tool update -g docfx
+          dotnet restore
+          dotnet build -c Release
       - run: docfx docfx_project/docfx.json
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: docs/_site
+          publish_dir: docfx_project/_site
