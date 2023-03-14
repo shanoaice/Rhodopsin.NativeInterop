@@ -1,0 +1,591 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Rhodopsin.NativeInterop
+  name: Rhodopsin.NativeInterop
+  href: api/Rhodopsin.NativeInterop.html
+  commentId: N:Rhodopsin.NativeInterop
+  fullName: Rhodopsin.NativeInterop
+  nameWithType: Rhodopsin.NativeInterop
+- uid: Rhodopsin.NativeInterop.CLRString
+  name: CLRString
+  href: api/Rhodopsin.NativeInterop.CLRString.html
+  commentId: T:Rhodopsin.NativeInterop.CLRString
+  fullName: Rhodopsin.NativeInterop.CLRString
+  nameWithType: CLRString
+- uid: Rhodopsin.NativeInterop.CLRString.#ctor(System.IntPtr,System.UIntPtr)
+  name: CLRString(nint, nuint)
+  href: api/Rhodopsin.NativeInterop.CLRString.html#Rhodopsin_NativeInterop_CLRString__ctor_System_IntPtr_System_UIntPtr_
+  commentId: M:Rhodopsin.NativeInterop.CLRString.#ctor(System.IntPtr,System.UIntPtr)
+  name.vb: New(IntPtr, UIntPtr)
+  fullName: Rhodopsin.NativeInterop.CLRString.CLRString(nint, nuint)
+  fullName.vb: Rhodopsin.NativeInterop.CLRString.New(System.IntPtr, System.UIntPtr)
+  nameWithType: CLRString.CLRString(nint, nuint)
+  nameWithType.vb: CLRString.New(IntPtr, UIntPtr)
+- uid: Rhodopsin.NativeInterop.CLRString.#ctor*
+  name: CLRString
+  href: api/Rhodopsin.NativeInterop.CLRString.html#Rhodopsin_NativeInterop_CLRString__ctor_
+  commentId: Overload:Rhodopsin.NativeInterop.CLRString.#ctor
+  name.vb: New
+  fullName: Rhodopsin.NativeInterop.CLRString.CLRString
+  fullName.vb: Rhodopsin.NativeInterop.CLRString.New
+  nameWithType: CLRString.CLRString
+  nameWithType.vb: CLRString.New
+- uid: Rhodopsin.NativeInterop.CLRString.CompareTo(Rhodopsin.NativeInterop.CLRString)
+  name: CompareTo(CLRString)
+  href: api/Rhodopsin.NativeInterop.CLRString.html#Rhodopsin_NativeInterop_CLRString_CompareTo_Rhodopsin_NativeInterop_CLRString_
+  commentId: M:Rhodopsin.NativeInterop.CLRString.CompareTo(Rhodopsin.NativeInterop.CLRString)
+  fullName: Rhodopsin.NativeInterop.CLRString.CompareTo(Rhodopsin.NativeInterop.CLRString)
+  nameWithType: CLRString.CompareTo(CLRString)
+- uid: Rhodopsin.NativeInterop.CLRString.CompareTo(System.Object,System.Collections.IComparer)
+  name: CompareTo(object, IComparer)
+  href: api/Rhodopsin.NativeInterop.CLRString.html#Rhodopsin_NativeInterop_CLRString_CompareTo_System_Object_System_Collections_IComparer_
+  commentId: M:Rhodopsin.NativeInterop.CLRString.CompareTo(System.Object,System.Collections.IComparer)
+  name.vb: CompareTo(Object, IComparer)
+  fullName: Rhodopsin.NativeInterop.CLRString.CompareTo(object, System.Collections.IComparer)
+  fullName.vb: Rhodopsin.NativeInterop.CLRString.CompareTo(Object, System.Collections.IComparer)
+  nameWithType: CLRString.CompareTo(object, IComparer)
+  nameWithType.vb: CLRString.CompareTo(Object, IComparer)
+- uid: Rhodopsin.NativeInterop.CLRString.CompareTo(System.Object)
+  name: CompareTo(object)
+  href: api/Rhodopsin.NativeInterop.CLRString.html#Rhodopsin_NativeInterop_CLRString_CompareTo_System_Object_
+  commentId: M:Rhodopsin.NativeInterop.CLRString.CompareTo(System.Object)
+  name.vb: CompareTo(Object)
+  fullName: Rhodopsin.NativeInterop.CLRString.CompareTo(object)
+  fullName.vb: Rhodopsin.NativeInterop.CLRString.CompareTo(Object)
+  nameWithType: CLRString.CompareTo(object)
+  nameWithType.vb: CLRString.CompareTo(Object)
+- uid: Rhodopsin.NativeInterop.CLRString.CompareTo*
+  name: CompareTo
+  href: api/Rhodopsin.NativeInterop.CLRString.html#Rhodopsin_NativeInterop_CLRString_CompareTo_
+  commentId: Overload:Rhodopsin.NativeInterop.CLRString.CompareTo
+  fullName: Rhodopsin.NativeInterop.CLRString.CompareTo
+  nameWithType: CLRString.CompareTo
+- uid: Rhodopsin.NativeInterop.CLRString.Equals(Rhodopsin.NativeInterop.CLRString)
+  name: Equals(CLRString)
+  href: api/Rhodopsin.NativeInterop.CLRString.html#Rhodopsin_NativeInterop_CLRString_Equals_Rhodopsin_NativeInterop_CLRString_
+  commentId: M:Rhodopsin.NativeInterop.CLRString.Equals(Rhodopsin.NativeInterop.CLRString)
+  fullName: Rhodopsin.NativeInterop.CLRString.Equals(Rhodopsin.NativeInterop.CLRString)
+  nameWithType: CLRString.Equals(CLRString)
+- uid: Rhodopsin.NativeInterop.CLRString.Equals(System.Object,System.Collections.IEqualityComparer)
+  name: Equals(object, IEqualityComparer)
+  href: api/Rhodopsin.NativeInterop.CLRString.html#Rhodopsin_NativeInterop_CLRString_Equals_System_Object_System_Collections_IEqualityComparer_
+  commentId: M:Rhodopsin.NativeInterop.CLRString.Equals(System.Object,System.Collections.IEqualityComparer)
+  name.vb: Equals(Object, IEqualityComparer)
+  fullName: Rhodopsin.NativeInterop.CLRString.Equals(object, System.Collections.IEqualityComparer)
+  fullName.vb: Rhodopsin.NativeInterop.CLRString.Equals(Object, System.Collections.IEqualityComparer)
+  nameWithType: CLRString.Equals(object, IEqualityComparer)
+  nameWithType.vb: CLRString.Equals(Object, IEqualityComparer)
+- uid: Rhodopsin.NativeInterop.CLRString.Equals(System.Object)
+  name: Equals(object)
+  href: api/Rhodopsin.NativeInterop.CLRString.html#Rhodopsin_NativeInterop_CLRString_Equals_System_Object_
+  commentId: M:Rhodopsin.NativeInterop.CLRString.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: Rhodopsin.NativeInterop.CLRString.Equals(object)
+  fullName.vb: Rhodopsin.NativeInterop.CLRString.Equals(Object)
+  nameWithType: CLRString.Equals(object)
+  nameWithType.vb: CLRString.Equals(Object)
+- uid: Rhodopsin.NativeInterop.CLRString.Equals*
+  name: Equals
+  href: api/Rhodopsin.NativeInterop.CLRString.html#Rhodopsin_NativeInterop_CLRString_Equals_
+  commentId: Overload:Rhodopsin.NativeInterop.CLRString.Equals
+  fullName: Rhodopsin.NativeInterop.CLRString.Equals
+  nameWithType: CLRString.Equals
+- uid: Rhodopsin.NativeInterop.CLRString.FromString(System.String)
+  name: FromString(string)
+  href: api/Rhodopsin.NativeInterop.CLRString.html#Rhodopsin_NativeInterop_CLRString_FromString_System_String_
+  commentId: M:Rhodopsin.NativeInterop.CLRString.FromString(System.String)
+  name.vb: FromString(String)
+  fullName: Rhodopsin.NativeInterop.CLRString.FromString(string)
+  fullName.vb: Rhodopsin.NativeInterop.CLRString.FromString(String)
+  nameWithType: CLRString.FromString(string)
+  nameWithType.vb: CLRString.FromString(String)
+- uid: Rhodopsin.NativeInterop.CLRString.FromString*
+  name: FromString
+  href: api/Rhodopsin.NativeInterop.CLRString.html#Rhodopsin_NativeInterop_CLRString_FromString_
+  commentId: Overload:Rhodopsin.NativeInterop.CLRString.FromString
+  fullName: Rhodopsin.NativeInterop.CLRString.FromString
+  nameWithType: CLRString.FromString
+- uid: Rhodopsin.NativeInterop.CLRString.GetHashCode
+  name: GetHashCode()
+  href: api/Rhodopsin.NativeInterop.CLRString.html#Rhodopsin_NativeInterop_CLRString_GetHashCode
+  commentId: M:Rhodopsin.NativeInterop.CLRString.GetHashCode
+  fullName: Rhodopsin.NativeInterop.CLRString.GetHashCode()
+  nameWithType: CLRString.GetHashCode()
+- uid: Rhodopsin.NativeInterop.CLRString.GetHashCode(System.Collections.IEqualityComparer)
+  name: GetHashCode(IEqualityComparer)
+  href: api/Rhodopsin.NativeInterop.CLRString.html#Rhodopsin_NativeInterop_CLRString_GetHashCode_System_Collections_IEqualityComparer_
+  commentId: M:Rhodopsin.NativeInterop.CLRString.GetHashCode(System.Collections.IEqualityComparer)
+  fullName: Rhodopsin.NativeInterop.CLRString.GetHashCode(System.Collections.IEqualityComparer)
+  nameWithType: CLRString.GetHashCode(IEqualityComparer)
+- uid: Rhodopsin.NativeInterop.CLRString.GetHashCode*
+  name: GetHashCode
+  href: api/Rhodopsin.NativeInterop.CLRString.html#Rhodopsin_NativeInterop_CLRString_GetHashCode_
+  commentId: Overload:Rhodopsin.NativeInterop.CLRString.GetHashCode
+  fullName: Rhodopsin.NativeInterop.CLRString.GetHashCode
+  nameWithType: CLRString.GetHashCode
+- uid: Rhodopsin.NativeInterop.CLRString.Pointer
+  name: Pointer
+  href: api/Rhodopsin.NativeInterop.CLRString.html#Rhodopsin_NativeInterop_CLRString_Pointer
+  commentId: P:Rhodopsin.NativeInterop.CLRString.Pointer
+  fullName: Rhodopsin.NativeInterop.CLRString.Pointer
+  nameWithType: CLRString.Pointer
+- uid: Rhodopsin.NativeInterop.CLRString.Pointer*
+  name: Pointer
+  href: api/Rhodopsin.NativeInterop.CLRString.html#Rhodopsin_NativeInterop_CLRString_Pointer_
+  commentId: Overload:Rhodopsin.NativeInterop.CLRString.Pointer
+  fullName: Rhodopsin.NativeInterop.CLRString.Pointer
+  nameWithType: CLRString.Pointer
+- uid: Rhodopsin.NativeInterop.CLRString.Size
+  name: Size
+  href: api/Rhodopsin.NativeInterop.CLRString.html#Rhodopsin_NativeInterop_CLRString_Size
+  commentId: P:Rhodopsin.NativeInterop.CLRString.Size
+  fullName: Rhodopsin.NativeInterop.CLRString.Size
+  nameWithType: CLRString.Size
+- uid: Rhodopsin.NativeInterop.CLRString.Size*
+  name: Size
+  href: api/Rhodopsin.NativeInterop.CLRString.html#Rhodopsin_NativeInterop_CLRString_Size_
+  commentId: Overload:Rhodopsin.NativeInterop.CLRString.Size
+  fullName: Rhodopsin.NativeInterop.CLRString.Size
+  nameWithType: CLRString.Size
+- uid: Rhodopsin.NativeInterop.CLRString.ToString
+  name: ToString()
+  href: api/Rhodopsin.NativeInterop.CLRString.html#Rhodopsin_NativeInterop_CLRString_ToString
+  commentId: M:Rhodopsin.NativeInterop.CLRString.ToString
+  fullName: Rhodopsin.NativeInterop.CLRString.ToString()
+  nameWithType: CLRString.ToString()
+- uid: Rhodopsin.NativeInterop.CLRString.ToString*
+  name: ToString
+  href: api/Rhodopsin.NativeInterop.CLRString.html#Rhodopsin_NativeInterop_CLRString_ToString_
+  commentId: Overload:Rhodopsin.NativeInterop.CLRString.ToString
+  fullName: Rhodopsin.NativeInterop.CLRString.ToString
+  nameWithType: CLRString.ToString
+- uid: Rhodopsin.NativeInterop.FFIStringPolicy
+  name: FFIStringPolicy
+  href: api/Rhodopsin.NativeInterop.FFIStringPolicy.html
+  commentId: T:Rhodopsin.NativeInterop.FFIStringPolicy
+  fullName: Rhodopsin.NativeInterop.FFIStringPolicy
+  nameWithType: FFIStringPolicy
+- uid: Rhodopsin.NativeInterop.FFIStringPolicy.CLRString
+  name: CLRString
+  href: api/Rhodopsin.NativeInterop.FFIStringPolicy.html#Rhodopsin_NativeInterop_FFIStringPolicy_CLRString
+  commentId: F:Rhodopsin.NativeInterop.FFIStringPolicy.CLRString
+  fullName: Rhodopsin.NativeInterop.FFIStringPolicy.CLRString
+  nameWithType: FFIStringPolicy.CLRString
+- uid: Rhodopsin.NativeInterop.FFIStringPolicy.CStrPtr
+  name: CStrPtr
+  href: api/Rhodopsin.NativeInterop.FFIStringPolicy.html#Rhodopsin_NativeInterop_FFIStringPolicy_CStrPtr
+  commentId: F:Rhodopsin.NativeInterop.FFIStringPolicy.CStrPtr
+  fullName: Rhodopsin.NativeInterop.FFIStringPolicy.CStrPtr
+  nameWithType: FFIStringPolicy.CStrPtr
+- uid: Rhodopsin.NativeInterop.FFIStringPolicy.RustString
+  name: RustString
+  href: api/Rhodopsin.NativeInterop.FFIStringPolicy.html#Rhodopsin_NativeInterop_FFIStringPolicy_RustString
+  commentId: F:Rhodopsin.NativeInterop.FFIStringPolicy.RustString
+  fullName: Rhodopsin.NativeInterop.FFIStringPolicy.RustString
+  nameWithType: FFIStringPolicy.RustString
+- uid: Rhodopsin.NativeInterop.Free
+  name: Free
+  href: api/Rhodopsin.NativeInterop.Free.html
+  commentId: T:Rhodopsin.NativeInterop.Free
+  fullName: Rhodopsin.NativeInterop.Free
+  nameWithType: Free
+- uid: Rhodopsin.NativeInterop.Free.freeHGlobal(System.IntPtr)
+  name: freeHGlobal(nint)
+  href: api/Rhodopsin.NativeInterop.Free.html#Rhodopsin_NativeInterop_Free_freeHGlobal_System_IntPtr_
+  commentId: M:Rhodopsin.NativeInterop.Free.freeHGlobal(System.IntPtr)
+  name.vb: freeHGlobal(IntPtr)
+  fullName: Rhodopsin.NativeInterop.Free.freeHGlobal(nint)
+  fullName.vb: Rhodopsin.NativeInterop.Free.freeHGlobal(System.IntPtr)
+  nameWithType: Free.freeHGlobal(nint)
+  nameWithType.vb: Free.freeHGlobal(IntPtr)
+- uid: Rhodopsin.NativeInterop.Free.freeHGlobal*
+  name: freeHGlobal
+  href: api/Rhodopsin.NativeInterop.Free.html#Rhodopsin_NativeInterop_Free_freeHGlobal_
+  commentId: Overload:Rhodopsin.NativeInterop.Free.freeHGlobal
+  fullName: Rhodopsin.NativeInterop.Free.freeHGlobal
+  nameWithType: Free.freeHGlobal
+- uid: Rhodopsin.NativeInterop.RustString
+  name: RustString
+  href: api/Rhodopsin.NativeInterop.RustString.html
+  commentId: T:Rhodopsin.NativeInterop.RustString
+  fullName: Rhodopsin.NativeInterop.RustString
+  nameWithType: RustString
+- uid: Rhodopsin.NativeInterop.RustString.#ctor(System.IntPtr,System.UIntPtr)
+  name: RustString(nint, nuint)
+  href: api/Rhodopsin.NativeInterop.RustString.html#Rhodopsin_NativeInterop_RustString__ctor_System_IntPtr_System_UIntPtr_
+  commentId: M:Rhodopsin.NativeInterop.RustString.#ctor(System.IntPtr,System.UIntPtr)
+  name.vb: New(IntPtr, UIntPtr)
+  fullName: Rhodopsin.NativeInterop.RustString.RustString(nint, nuint)
+  fullName.vb: Rhodopsin.NativeInterop.RustString.New(System.IntPtr, System.UIntPtr)
+  nameWithType: RustString.RustString(nint, nuint)
+  nameWithType.vb: RustString.New(IntPtr, UIntPtr)
+- uid: Rhodopsin.NativeInterop.RustString.#ctor*
+  name: RustString
+  href: api/Rhodopsin.NativeInterop.RustString.html#Rhodopsin_NativeInterop_RustString__ctor_
+  commentId: Overload:Rhodopsin.NativeInterop.RustString.#ctor
+  name.vb: New
+  fullName: Rhodopsin.NativeInterop.RustString.RustString
+  fullName.vb: Rhodopsin.NativeInterop.RustString.New
+  nameWithType: RustString.RustString
+  nameWithType.vb: RustString.New
+- uid: Rhodopsin.NativeInterop.RustString.CompareTo(Rhodopsin.NativeInterop.RustString)
+  name: CompareTo(RustString)
+  href: api/Rhodopsin.NativeInterop.RustString.html#Rhodopsin_NativeInterop_RustString_CompareTo_Rhodopsin_NativeInterop_RustString_
+  commentId: M:Rhodopsin.NativeInterop.RustString.CompareTo(Rhodopsin.NativeInterop.RustString)
+  fullName: Rhodopsin.NativeInterop.RustString.CompareTo(Rhodopsin.NativeInterop.RustString)
+  nameWithType: RustString.CompareTo(RustString)
+- uid: Rhodopsin.NativeInterop.RustString.CompareTo(System.Object,System.Collections.IComparer)
+  name: CompareTo(object, IComparer)
+  href: api/Rhodopsin.NativeInterop.RustString.html#Rhodopsin_NativeInterop_RustString_CompareTo_System_Object_System_Collections_IComparer_
+  commentId: M:Rhodopsin.NativeInterop.RustString.CompareTo(System.Object,System.Collections.IComparer)
+  name.vb: CompareTo(Object, IComparer)
+  fullName: Rhodopsin.NativeInterop.RustString.CompareTo(object, System.Collections.IComparer)
+  fullName.vb: Rhodopsin.NativeInterop.RustString.CompareTo(Object, System.Collections.IComparer)
+  nameWithType: RustString.CompareTo(object, IComparer)
+  nameWithType.vb: RustString.CompareTo(Object, IComparer)
+- uid: Rhodopsin.NativeInterop.RustString.CompareTo(System.Object)
+  name: CompareTo(object)
+  href: api/Rhodopsin.NativeInterop.RustString.html#Rhodopsin_NativeInterop_RustString_CompareTo_System_Object_
+  commentId: M:Rhodopsin.NativeInterop.RustString.CompareTo(System.Object)
+  name.vb: CompareTo(Object)
+  fullName: Rhodopsin.NativeInterop.RustString.CompareTo(object)
+  fullName.vb: Rhodopsin.NativeInterop.RustString.CompareTo(Object)
+  nameWithType: RustString.CompareTo(object)
+  nameWithType.vb: RustString.CompareTo(Object)
+- uid: Rhodopsin.NativeInterop.RustString.CompareTo*
+  name: CompareTo
+  href: api/Rhodopsin.NativeInterop.RustString.html#Rhodopsin_NativeInterop_RustString_CompareTo_
+  commentId: Overload:Rhodopsin.NativeInterop.RustString.CompareTo
+  fullName: Rhodopsin.NativeInterop.RustString.CompareTo
+  nameWithType: RustString.CompareTo
+- uid: Rhodopsin.NativeInterop.RustString.Equals(Rhodopsin.NativeInterop.RustString)
+  name: Equals(RustString)
+  href: api/Rhodopsin.NativeInterop.RustString.html#Rhodopsin_NativeInterop_RustString_Equals_Rhodopsin_NativeInterop_RustString_
+  commentId: M:Rhodopsin.NativeInterop.RustString.Equals(Rhodopsin.NativeInterop.RustString)
+  fullName: Rhodopsin.NativeInterop.RustString.Equals(Rhodopsin.NativeInterop.RustString)
+  nameWithType: RustString.Equals(RustString)
+- uid: Rhodopsin.NativeInterop.RustString.Equals(System.Object,System.Collections.IEqualityComparer)
+  name: Equals(object, IEqualityComparer)
+  href: api/Rhodopsin.NativeInterop.RustString.html#Rhodopsin_NativeInterop_RustString_Equals_System_Object_System_Collections_IEqualityComparer_
+  commentId: M:Rhodopsin.NativeInterop.RustString.Equals(System.Object,System.Collections.IEqualityComparer)
+  name.vb: Equals(Object, IEqualityComparer)
+  fullName: Rhodopsin.NativeInterop.RustString.Equals(object, System.Collections.IEqualityComparer)
+  fullName.vb: Rhodopsin.NativeInterop.RustString.Equals(Object, System.Collections.IEqualityComparer)
+  nameWithType: RustString.Equals(object, IEqualityComparer)
+  nameWithType.vb: RustString.Equals(Object, IEqualityComparer)
+- uid: Rhodopsin.NativeInterop.RustString.Equals(System.Object)
+  name: Equals(object)
+  href: api/Rhodopsin.NativeInterop.RustString.html#Rhodopsin_NativeInterop_RustString_Equals_System_Object_
+  commentId: M:Rhodopsin.NativeInterop.RustString.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: Rhodopsin.NativeInterop.RustString.Equals(object)
+  fullName.vb: Rhodopsin.NativeInterop.RustString.Equals(Object)
+  nameWithType: RustString.Equals(object)
+  nameWithType.vb: RustString.Equals(Object)
+- uid: Rhodopsin.NativeInterop.RustString.Equals*
+  name: Equals
+  href: api/Rhodopsin.NativeInterop.RustString.html#Rhodopsin_NativeInterop_RustString_Equals_
+  commentId: Overload:Rhodopsin.NativeInterop.RustString.Equals
+  fullName: Rhodopsin.NativeInterop.RustString.Equals
+  nameWithType: RustString.Equals
+- uid: Rhodopsin.NativeInterop.RustString.FromString(System.String)
+  name: FromString(string)
+  href: api/Rhodopsin.NativeInterop.RustString.html#Rhodopsin_NativeInterop_RustString_FromString_System_String_
+  commentId: M:Rhodopsin.NativeInterop.RustString.FromString(System.String)
+  name.vb: FromString(String)
+  fullName: Rhodopsin.NativeInterop.RustString.FromString(string)
+  fullName.vb: Rhodopsin.NativeInterop.RustString.FromString(String)
+  nameWithType: RustString.FromString(string)
+  nameWithType.vb: RustString.FromString(String)
+- uid: Rhodopsin.NativeInterop.RustString.FromString*
+  name: FromString
+  href: api/Rhodopsin.NativeInterop.RustString.html#Rhodopsin_NativeInterop_RustString_FromString_
+  commentId: Overload:Rhodopsin.NativeInterop.RustString.FromString
+  fullName: Rhodopsin.NativeInterop.RustString.FromString
+  nameWithType: RustString.FromString
+- uid: Rhodopsin.NativeInterop.RustString.GetHashCode
+  name: GetHashCode()
+  href: api/Rhodopsin.NativeInterop.RustString.html#Rhodopsin_NativeInterop_RustString_GetHashCode
+  commentId: M:Rhodopsin.NativeInterop.RustString.GetHashCode
+  fullName: Rhodopsin.NativeInterop.RustString.GetHashCode()
+  nameWithType: RustString.GetHashCode()
+- uid: Rhodopsin.NativeInterop.RustString.GetHashCode(System.Collections.IEqualityComparer)
+  name: GetHashCode(IEqualityComparer)
+  href: api/Rhodopsin.NativeInterop.RustString.html#Rhodopsin_NativeInterop_RustString_GetHashCode_System_Collections_IEqualityComparer_
+  commentId: M:Rhodopsin.NativeInterop.RustString.GetHashCode(System.Collections.IEqualityComparer)
+  fullName: Rhodopsin.NativeInterop.RustString.GetHashCode(System.Collections.IEqualityComparer)
+  nameWithType: RustString.GetHashCode(IEqualityComparer)
+- uid: Rhodopsin.NativeInterop.RustString.GetHashCode*
+  name: GetHashCode
+  href: api/Rhodopsin.NativeInterop.RustString.html#Rhodopsin_NativeInterop_RustString_GetHashCode_
+  commentId: Overload:Rhodopsin.NativeInterop.RustString.GetHashCode
+  fullName: Rhodopsin.NativeInterop.RustString.GetHashCode
+  nameWithType: RustString.GetHashCode
+- uid: Rhodopsin.NativeInterop.RustString.Pointer
+  name: Pointer
+  href: api/Rhodopsin.NativeInterop.RustString.html#Rhodopsin_NativeInterop_RustString_Pointer
+  commentId: P:Rhodopsin.NativeInterop.RustString.Pointer
+  fullName: Rhodopsin.NativeInterop.RustString.Pointer
+  nameWithType: RustString.Pointer
+- uid: Rhodopsin.NativeInterop.RustString.Pointer*
+  name: Pointer
+  href: api/Rhodopsin.NativeInterop.RustString.html#Rhodopsin_NativeInterop_RustString_Pointer_
+  commentId: Overload:Rhodopsin.NativeInterop.RustString.Pointer
+  fullName: Rhodopsin.NativeInterop.RustString.Pointer
+  nameWithType: RustString.Pointer
+- uid: Rhodopsin.NativeInterop.RustString.Size
+  name: Size
+  href: api/Rhodopsin.NativeInterop.RustString.html#Rhodopsin_NativeInterop_RustString_Size
+  commentId: P:Rhodopsin.NativeInterop.RustString.Size
+  fullName: Rhodopsin.NativeInterop.RustString.Size
+  nameWithType: RustString.Size
+- uid: Rhodopsin.NativeInterop.RustString.Size*
+  name: Size
+  href: api/Rhodopsin.NativeInterop.RustString.html#Rhodopsin_NativeInterop_RustString_Size_
+  commentId: Overload:Rhodopsin.NativeInterop.RustString.Size
+  fullName: Rhodopsin.NativeInterop.RustString.Size
+  nameWithType: RustString.Size
+- uid: Rhodopsin.NativeInterop.RustString.ToString
+  name: ToString()
+  href: api/Rhodopsin.NativeInterop.RustString.html#Rhodopsin_NativeInterop_RustString_ToString
+  commentId: M:Rhodopsin.NativeInterop.RustString.ToString
+  fullName: Rhodopsin.NativeInterop.RustString.ToString()
+  nameWithType: RustString.ToString()
+- uid: Rhodopsin.NativeInterop.RustString.ToString*
+  name: ToString
+  href: api/Rhodopsin.NativeInterop.RustString.html#Rhodopsin_NativeInterop_RustString_ToString_
+  commentId: Overload:Rhodopsin.NativeInterop.RustString.ToString
+  fullName: Rhodopsin.NativeInterop.RustString.ToString
+  nameWithType: RustString.ToString
+- uid: Rhodopsin.NativeInterop.Vector
+  name: Vector
+  href: api/Rhodopsin.NativeInterop.Vector.html
+  commentId: T:Rhodopsin.NativeInterop.Vector
+  fullName: Rhodopsin.NativeInterop.Vector
+  nameWithType: Vector
+- uid: Rhodopsin.NativeInterop.Vector.#ctor(System.IntPtr,System.UIntPtr,System.UIntPtr)
+  name: Vector(nint, nuint, nuint)
+  href: api/Rhodopsin.NativeInterop.Vector.html#Rhodopsin_NativeInterop_Vector__ctor_System_IntPtr_System_UIntPtr_System_UIntPtr_
+  commentId: M:Rhodopsin.NativeInterop.Vector.#ctor(System.IntPtr,System.UIntPtr,System.UIntPtr)
+  name.vb: New(IntPtr, UIntPtr, UIntPtr)
+  fullName: Rhodopsin.NativeInterop.Vector.Vector(nint, nuint, nuint)
+  fullName.vb: Rhodopsin.NativeInterop.Vector.New(System.IntPtr, System.UIntPtr, System.UIntPtr)
+  nameWithType: Vector.Vector(nint, nuint, nuint)
+  nameWithType.vb: Vector.New(IntPtr, UIntPtr, UIntPtr)
+- uid: Rhodopsin.NativeInterop.Vector.#ctor*
+  name: Vector
+  href: api/Rhodopsin.NativeInterop.Vector.html#Rhodopsin_NativeInterop_Vector__ctor_
+  commentId: Overload:Rhodopsin.NativeInterop.Vector.#ctor
+  name.vb: New
+  fullName: Rhodopsin.NativeInterop.Vector.Vector
+  fullName.vb: Rhodopsin.NativeInterop.Vector.New
+  nameWithType: Vector.Vector
+  nameWithType.vb: Vector.New
+- uid: Rhodopsin.NativeInterop.Vector.AsReadOnlySpan*
+  name: AsReadOnlySpan
+  href: api/Rhodopsin.NativeInterop.Vector.html#Rhodopsin_NativeInterop_Vector_AsReadOnlySpan_
+  commentId: Overload:Rhodopsin.NativeInterop.Vector.AsReadOnlySpan
+  fullName: Rhodopsin.NativeInterop.Vector.AsReadOnlySpan
+  nameWithType: Vector.AsReadOnlySpan
+- uid: Rhodopsin.NativeInterop.Vector.AsReadOnlySpan``1
+  name: AsReadOnlySpan<T>()
+  href: api/Rhodopsin.NativeInterop.Vector.html#Rhodopsin_NativeInterop_Vector_AsReadOnlySpan__1
+  commentId: M:Rhodopsin.NativeInterop.Vector.AsReadOnlySpan``1
+  name.vb: AsReadOnlySpan(Of T)()
+  fullName: Rhodopsin.NativeInterop.Vector.AsReadOnlySpan<T>()
+  fullName.vb: Rhodopsin.NativeInterop.Vector.AsReadOnlySpan(Of T)()
+  nameWithType: Vector.AsReadOnlySpan<T>()
+  nameWithType.vb: Vector.AsReadOnlySpan(Of T)()
+- uid: Rhodopsin.NativeInterop.Vector.AsSpan*
+  name: AsSpan
+  href: api/Rhodopsin.NativeInterop.Vector.html#Rhodopsin_NativeInterop_Vector_AsSpan_
+  commentId: Overload:Rhodopsin.NativeInterop.Vector.AsSpan
+  fullName: Rhodopsin.NativeInterop.Vector.AsSpan
+  nameWithType: Vector.AsSpan
+- uid: Rhodopsin.NativeInterop.Vector.AsSpan``1
+  name: AsSpan<T>()
+  href: api/Rhodopsin.NativeInterop.Vector.html#Rhodopsin_NativeInterop_Vector_AsSpan__1
+  commentId: M:Rhodopsin.NativeInterop.Vector.AsSpan``1
+  name.vb: AsSpan(Of T)()
+  fullName: Rhodopsin.NativeInterop.Vector.AsSpan<T>()
+  fullName.vb: Rhodopsin.NativeInterop.Vector.AsSpan(Of T)()
+  nameWithType: Vector.AsSpan<T>()
+  nameWithType.vb: Vector.AsSpan(Of T)()
+- uid: Rhodopsin.NativeInterop.Vector.AsSpanAll*
+  name: AsSpanAll
+  href: api/Rhodopsin.NativeInterop.Vector.html#Rhodopsin_NativeInterop_Vector_AsSpanAll_
+  commentId: Overload:Rhodopsin.NativeInterop.Vector.AsSpanAll
+  fullName: Rhodopsin.NativeInterop.Vector.AsSpanAll
+  nameWithType: Vector.AsSpanAll
+- uid: Rhodopsin.NativeInterop.Vector.AsSpanAll``1
+  name: AsSpanAll<T>()
+  href: api/Rhodopsin.NativeInterop.Vector.html#Rhodopsin_NativeInterop_Vector_AsSpanAll__1
+  commentId: M:Rhodopsin.NativeInterop.Vector.AsSpanAll``1
+  name.vb: AsSpanAll(Of T)()
+  fullName: Rhodopsin.NativeInterop.Vector.AsSpanAll<T>()
+  fullName.vb: Rhodopsin.NativeInterop.Vector.AsSpanAll(Of T)()
+  nameWithType: Vector.AsSpanAll<T>()
+  nameWithType.vb: Vector.AsSpanAll(Of T)()
+- uid: Rhodopsin.NativeInterop.Vector.Buffer
+  name: Buffer
+  href: api/Rhodopsin.NativeInterop.Vector.html#Rhodopsin_NativeInterop_Vector_Buffer
+  commentId: P:Rhodopsin.NativeInterop.Vector.Buffer
+  fullName: Rhodopsin.NativeInterop.Vector.Buffer
+  nameWithType: Vector.Buffer
+- uid: Rhodopsin.NativeInterop.Vector.Buffer*
+  name: Buffer
+  href: api/Rhodopsin.NativeInterop.Vector.html#Rhodopsin_NativeInterop_Vector_Buffer_
+  commentId: Overload:Rhodopsin.NativeInterop.Vector.Buffer
+  fullName: Rhodopsin.NativeInterop.Vector.Buffer
+  nameWithType: Vector.Buffer
+- uid: Rhodopsin.NativeInterop.Vector.Capacity
+  name: Capacity
+  href: api/Rhodopsin.NativeInterop.Vector.html#Rhodopsin_NativeInterop_Vector_Capacity
+  commentId: P:Rhodopsin.NativeInterop.Vector.Capacity
+  fullName: Rhodopsin.NativeInterop.Vector.Capacity
+  nameWithType: Vector.Capacity
+- uid: Rhodopsin.NativeInterop.Vector.Capacity*
+  name: Capacity
+  href: api/Rhodopsin.NativeInterop.Vector.html#Rhodopsin_NativeInterop_Vector_Capacity_
+  commentId: Overload:Rhodopsin.NativeInterop.Vector.Capacity
+  fullName: Rhodopsin.NativeInterop.Vector.Capacity
+  nameWithType: Vector.Capacity
+- uid: Rhodopsin.NativeInterop.Vector.CompareTo(Rhodopsin.NativeInterop.Vector)
+  name: CompareTo(Vector)
+  href: api/Rhodopsin.NativeInterop.Vector.html#Rhodopsin_NativeInterop_Vector_CompareTo_Rhodopsin_NativeInterop_Vector_
+  commentId: M:Rhodopsin.NativeInterop.Vector.CompareTo(Rhodopsin.NativeInterop.Vector)
+  fullName: Rhodopsin.NativeInterop.Vector.CompareTo(Rhodopsin.NativeInterop.Vector)
+  nameWithType: Vector.CompareTo(Vector)
+- uid: Rhodopsin.NativeInterop.Vector.CompareTo(System.Object,System.Collections.IComparer)
+  name: CompareTo(object, IComparer)
+  href: api/Rhodopsin.NativeInterop.Vector.html#Rhodopsin_NativeInterop_Vector_CompareTo_System_Object_System_Collections_IComparer_
+  commentId: M:Rhodopsin.NativeInterop.Vector.CompareTo(System.Object,System.Collections.IComparer)
+  name.vb: CompareTo(Object, IComparer)
+  fullName: Rhodopsin.NativeInterop.Vector.CompareTo(object, System.Collections.IComparer)
+  fullName.vb: Rhodopsin.NativeInterop.Vector.CompareTo(Object, System.Collections.IComparer)
+  nameWithType: Vector.CompareTo(object, IComparer)
+  nameWithType.vb: Vector.CompareTo(Object, IComparer)
+- uid: Rhodopsin.NativeInterop.Vector.CompareTo(System.Object)
+  name: CompareTo(object)
+  href: api/Rhodopsin.NativeInterop.Vector.html#Rhodopsin_NativeInterop_Vector_CompareTo_System_Object_
+  commentId: M:Rhodopsin.NativeInterop.Vector.CompareTo(System.Object)
+  name.vb: CompareTo(Object)
+  fullName: Rhodopsin.NativeInterop.Vector.CompareTo(object)
+  fullName.vb: Rhodopsin.NativeInterop.Vector.CompareTo(Object)
+  nameWithType: Vector.CompareTo(object)
+  nameWithType.vb: Vector.CompareTo(Object)
+- uid: Rhodopsin.NativeInterop.Vector.CompareTo*
+  name: CompareTo
+  href: api/Rhodopsin.NativeInterop.Vector.html#Rhodopsin_NativeInterop_Vector_CompareTo_
+  commentId: Overload:Rhodopsin.NativeInterop.Vector.CompareTo
+  fullName: Rhodopsin.NativeInterop.Vector.CompareTo
+  nameWithType: Vector.CompareTo
+- uid: Rhodopsin.NativeInterop.Vector.Equals(Rhodopsin.NativeInterop.Vector)
+  name: Equals(Vector)
+  href: api/Rhodopsin.NativeInterop.Vector.html#Rhodopsin_NativeInterop_Vector_Equals_Rhodopsin_NativeInterop_Vector_
+  commentId: M:Rhodopsin.NativeInterop.Vector.Equals(Rhodopsin.NativeInterop.Vector)
+  fullName: Rhodopsin.NativeInterop.Vector.Equals(Rhodopsin.NativeInterop.Vector)
+  nameWithType: Vector.Equals(Vector)
+- uid: Rhodopsin.NativeInterop.Vector.Equals(System.Object,System.Collections.IEqualityComparer)
+  name: Equals(object, IEqualityComparer)
+  href: api/Rhodopsin.NativeInterop.Vector.html#Rhodopsin_NativeInterop_Vector_Equals_System_Object_System_Collections_IEqualityComparer_
+  commentId: M:Rhodopsin.NativeInterop.Vector.Equals(System.Object,System.Collections.IEqualityComparer)
+  name.vb: Equals(Object, IEqualityComparer)
+  fullName: Rhodopsin.NativeInterop.Vector.Equals(object, System.Collections.IEqualityComparer)
+  fullName.vb: Rhodopsin.NativeInterop.Vector.Equals(Object, System.Collections.IEqualityComparer)
+  nameWithType: Vector.Equals(object, IEqualityComparer)
+  nameWithType.vb: Vector.Equals(Object, IEqualityComparer)
+- uid: Rhodopsin.NativeInterop.Vector.Equals(System.Object)
+  name: Equals(object)
+  href: api/Rhodopsin.NativeInterop.Vector.html#Rhodopsin_NativeInterop_Vector_Equals_System_Object_
+  commentId: M:Rhodopsin.NativeInterop.Vector.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: Rhodopsin.NativeInterop.Vector.Equals(object)
+  fullName.vb: Rhodopsin.NativeInterop.Vector.Equals(Object)
+  nameWithType: Vector.Equals(object)
+  nameWithType.vb: Vector.Equals(Object)
+- uid: Rhodopsin.NativeInterop.Vector.Equals*
+  name: Equals
+  href: api/Rhodopsin.NativeInterop.Vector.html#Rhodopsin_NativeInterop_Vector_Equals_
+  commentId: Overload:Rhodopsin.NativeInterop.Vector.Equals
+  fullName: Rhodopsin.NativeInterop.Vector.Equals
+  nameWithType: Vector.Equals
+- uid: Rhodopsin.NativeInterop.Vector.FromCLRString
+  name: FromCLRString()
+  href: api/Rhodopsin.NativeInterop.Vector.html#Rhodopsin_NativeInterop_Vector_FromCLRString
+  commentId: M:Rhodopsin.NativeInterop.Vector.FromCLRString
+  fullName: Rhodopsin.NativeInterop.Vector.FromCLRString()
+  nameWithType: Vector.FromCLRString()
+- uid: Rhodopsin.NativeInterop.Vector.FromCLRString*
+  name: FromCLRString
+  href: api/Rhodopsin.NativeInterop.Vector.html#Rhodopsin_NativeInterop_Vector_FromCLRString_
+  commentId: Overload:Rhodopsin.NativeInterop.Vector.FromCLRString
+  fullName: Rhodopsin.NativeInterop.Vector.FromCLRString
+  nameWithType: Vector.FromCLRString
+- uid: Rhodopsin.NativeInterop.Vector.FromCStrAsPtr
+  name: FromCStrAsPtr()
+  href: api/Rhodopsin.NativeInterop.Vector.html#Rhodopsin_NativeInterop_Vector_FromCStrAsPtr
+  commentId: M:Rhodopsin.NativeInterop.Vector.FromCStrAsPtr
+  fullName: Rhodopsin.NativeInterop.Vector.FromCStrAsPtr()
+  nameWithType: Vector.FromCStrAsPtr()
+- uid: Rhodopsin.NativeInterop.Vector.FromCStrAsPtr*
+  name: FromCStrAsPtr
+  href: api/Rhodopsin.NativeInterop.Vector.html#Rhodopsin_NativeInterop_Vector_FromCStrAsPtr_
+  commentId: Overload:Rhodopsin.NativeInterop.Vector.FromCStrAsPtr
+  fullName: Rhodopsin.NativeInterop.Vector.FromCStrAsPtr
+  nameWithType: Vector.FromCStrAsPtr
+- uid: Rhodopsin.NativeInterop.Vector.FromEnumerable
+  name: FromEnumerable()
+  href: api/Rhodopsin.NativeInterop.Vector.html#Rhodopsin_NativeInterop_Vector_FromEnumerable
+  commentId: M:Rhodopsin.NativeInterop.Vector.FromEnumerable
+  fullName: Rhodopsin.NativeInterop.Vector.FromEnumerable()
+  nameWithType: Vector.FromEnumerable()
+- uid: Rhodopsin.NativeInterop.Vector.FromEnumerable*
+  name: FromEnumerable
+  href: api/Rhodopsin.NativeInterop.Vector.html#Rhodopsin_NativeInterop_Vector_FromEnumerable_
+  commentId: Overload:Rhodopsin.NativeInterop.Vector.FromEnumerable
+  fullName: Rhodopsin.NativeInterop.Vector.FromEnumerable
+  nameWithType: Vector.FromEnumerable
+- uid: Rhodopsin.NativeInterop.Vector.FromRustString
+  name: FromRustString()
+  href: api/Rhodopsin.NativeInterop.Vector.html#Rhodopsin_NativeInterop_Vector_FromRustString
+  commentId: M:Rhodopsin.NativeInterop.Vector.FromRustString
+  fullName: Rhodopsin.NativeInterop.Vector.FromRustString()
+  nameWithType: Vector.FromRustString()
+- uid: Rhodopsin.NativeInterop.Vector.FromRustString*
+  name: FromRustString
+  href: api/Rhodopsin.NativeInterop.Vector.html#Rhodopsin_NativeInterop_Vector_FromRustString_
+  commentId: Overload:Rhodopsin.NativeInterop.Vector.FromRustString
+  fullName: Rhodopsin.NativeInterop.Vector.FromRustString
+  nameWithType: Vector.FromRustString
+- uid: Rhodopsin.NativeInterop.Vector.GetHashCode
+  name: GetHashCode()
+  href: api/Rhodopsin.NativeInterop.Vector.html#Rhodopsin_NativeInterop_Vector_GetHashCode
+  commentId: M:Rhodopsin.NativeInterop.Vector.GetHashCode
+  fullName: Rhodopsin.NativeInterop.Vector.GetHashCode()
+  nameWithType: Vector.GetHashCode()
+- uid: Rhodopsin.NativeInterop.Vector.GetHashCode(System.Collections.IEqualityComparer)
+  name: GetHashCode(IEqualityComparer)
+  href: api/Rhodopsin.NativeInterop.Vector.html#Rhodopsin_NativeInterop_Vector_GetHashCode_System_Collections_IEqualityComparer_
+  commentId: M:Rhodopsin.NativeInterop.Vector.GetHashCode(System.Collections.IEqualityComparer)
+  fullName: Rhodopsin.NativeInterop.Vector.GetHashCode(System.Collections.IEqualityComparer)
+  nameWithType: Vector.GetHashCode(IEqualityComparer)
+- uid: Rhodopsin.NativeInterop.Vector.GetHashCode*
+  name: GetHashCode
+  href: api/Rhodopsin.NativeInterop.Vector.html#Rhodopsin_NativeInterop_Vector_GetHashCode_
+  commentId: Overload:Rhodopsin.NativeInterop.Vector.GetHashCode
+  fullName: Rhodopsin.NativeInterop.Vector.GetHashCode
+  nameWithType: Vector.GetHashCode
+- uid: Rhodopsin.NativeInterop.Vector.Length
+  name: Length
+  href: api/Rhodopsin.NativeInterop.Vector.html#Rhodopsin_NativeInterop_Vector_Length
+  commentId: P:Rhodopsin.NativeInterop.Vector.Length
+  fullName: Rhodopsin.NativeInterop.Vector.Length
+  nameWithType: Vector.Length
+- uid: Rhodopsin.NativeInterop.Vector.Length*
+  name: Length
+  href: api/Rhodopsin.NativeInterop.Vector.html#Rhodopsin_NativeInterop_Vector_Length_
+  commentId: Overload:Rhodopsin.NativeInterop.Vector.Length
+  fullName: Rhodopsin.NativeInterop.Vector.Length
+  nameWithType: Vector.Length

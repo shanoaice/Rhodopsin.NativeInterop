@@ -1,0 +1,844 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Struct Vector
+ </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Struct Vector
+ ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Rhodopsin.NativeInterop.Vector">
+
+
+  <h1 id="Rhodopsin_NativeInterop_Vector" data-uid="Rhodopsin.NativeInterop.Vector" class="text-break">Struct Vector
+</h1>
+  <div class="markdown level0 summary"><p>Represents raw parts of a Rust <code>Vec&lt;T&gt;</code>. Viable for other FFI too as long as the format is obeyed.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IEquatable&lt;T&gt;</span>&lt;<a class="xref" href="Rhodopsin.NativeInterop.Vector.html">Vector</a>&gt;</div>
+    <div><span class="xref">System.Collections.IStructuralEquatable</span></div>
+    <div><span class="xref">System.IComparable&lt;T&gt;</span>&lt;<a class="xref" href="Rhodopsin.NativeInterop.Vector.html">Vector</a>&gt;</div>
+    <div><span class="xref">System.IComparable</span></div>
+    <div><span class="xref">System.Collections.IStructuralComparable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.ValueType.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.ReferenceEquals(object, object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <span class="xref">Rhodopsin</span>.<a class="xref" href="Rhodopsin.NativeInterop.html">NativeInterop</a></h6>
+  <h6><strong>Assembly</strong>: Rhodopsin.NativeInterop.dll</h6>
+  <h5 id="Rhodopsin_NativeInterop_Vector_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Struct]
+[CompilationMapping(SourceConstructFlags.ObjectType)]
+public struct Vector : IEquatable&lt;Vector&gt;, IStructuralEquatable, IComparable&lt;Vector&gt;, IComparable, IStructuralComparable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+</h3>
+
+
+  <a id="Rhodopsin_NativeInterop_Vector__ctor_" data-uid="Rhodopsin.NativeInterop.Vector.#ctor*"></a>
+  <h4 id="Rhodopsin_NativeInterop_Vector__ctor_System_IntPtr_System_UIntPtr_System_UIntPtr_" data-uid="Rhodopsin.NativeInterop.Vector.#ctor(System.IntPtr,System.UIntPtr,System.UIntPtr)">Vector(nint, nuint, nuint)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector(nint vecBuffer, nuint vecLength, nuint vecCapacity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">nint</span></td>
+        <td><span class="parametername">vecBuffer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">nuint</span></td>
+        <td><span class="parametername">vecLength</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">nuint</span></td>
+        <td><span class="parametername">vecCapacity</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+
+
+  <a id="Rhodopsin_NativeInterop_Vector_Buffer_" data-uid="Rhodopsin.NativeInterop.Vector.Buffer*"></a>
+  <h4 id="Rhodopsin_NativeInterop_Vector_Buffer" data-uid="Rhodopsin.NativeInterop.Vector.Buffer">Buffer</h4>
+  <div class="markdown level1 summary"><p>The pointer that points to the content of the Vector.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public nint Buffer { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">nint</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Rhodopsin_NativeInterop_Vector_Capacity_" data-uid="Rhodopsin.NativeInterop.Vector.Capacity*"></a>
+  <h4 id="Rhodopsin_NativeInterop_Vector_Capacity" data-uid="Rhodopsin.NativeInterop.Vector.Capacity">Capacity</h4>
+  <div class="markdown level1 summary"><p>The capacity of the Vector (can contain <code>len &lt;= capacity</code> without realloc).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public nuint Capacity { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">nuint</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Rhodopsin_NativeInterop_Vector_Length_" data-uid="Rhodopsin.NativeInterop.Vector.Length*"></a>
+  <h4 id="Rhodopsin_NativeInterop_Vector_Length" data-uid="Rhodopsin.NativeInterop.Vector.Length">Length</h4>
+  <div class="markdown level1 summary"><p>The length of the Vector.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public nuint Length { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">nuint</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="Rhodopsin_NativeInterop_Vector_AsReadOnlySpan_" data-uid="Rhodopsin.NativeInterop.Vector.AsReadOnlySpan*"></a>
+  <h4 id="Rhodopsin_NativeInterop_Vector_AsReadOnlySpan__1" data-uid="Rhodopsin.NativeInterop.Vector.AsReadOnlySpan``1">AsReadOnlySpan&lt;T&gt;()</h4>
+  <div class="markdown level1 summary"><p>Represents the underlying <code>Vec&lt;T&gt;</code> data as a <code>System.ReadOnlySpan&lt;T&gt;</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ReadOnlySpan&lt;T&gt; AsReadOnlySpan&lt;T&gt;()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ReadOnlySpan&lt;T&gt;</span>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Rhodopsin_NativeInterop_Vector_AsReadOnlySpan__1_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Due to CLR limit, you will not be able to access any element beyond <code>Int32.MaxValue</code>.</p>
+</div>
+
+
+  <a id="Rhodopsin_NativeInterop_Vector_AsSpan_" data-uid="Rhodopsin.NativeInterop.Vector.AsSpan*"></a>
+  <h4 id="Rhodopsin_NativeInterop_Vector_AsSpan__1" data-uid="Rhodopsin.NativeInterop.Vector.AsSpan``1">AsSpan&lt;T&gt;()</h4>
+  <div class="markdown level1 summary"><p>Represents the underlying <code>Vec&lt;T&gt;</code> data as a <code>System.Span&lt;T&gt;</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Span&lt;T&gt; AsSpan&lt;T&gt;()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Span&lt;T&gt;</span>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Rhodopsin_NativeInterop_Vector_AsSpan__1_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Due to CLR limit, you will not be able to access any element beyond <code>Int32.MaxValue</code>.</p>
+</div>
+
+
+  <a id="Rhodopsin_NativeInterop_Vector_AsSpanAll_" data-uid="Rhodopsin.NativeInterop.Vector.AsSpanAll*"></a>
+  <h4 id="Rhodopsin_NativeInterop_Vector_AsSpanAll__1" data-uid="Rhodopsin.NativeInterop.Vector.AsSpanAll``1">AsSpanAll&lt;T&gt;()</h4>
+  <div class="markdown level1 summary"><p>Represents the underlying <code>Vec&lt;T&gt;</code> data as a <code>System.Span&lt;T&gt;</code>, including empty spaces at the end.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Span&lt;T&gt; AsSpanAll&lt;T&gt;()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Span&lt;T&gt;</span>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Rhodopsin_NativeInterop_Vector_AsSpanAll__1_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Due to CLR limit, you will not be able to access any element beyond <code>Int32.MaxValue</code>.</p>
+</div>
+
+
+  <a id="Rhodopsin_NativeInterop_Vector_CompareTo_" data-uid="Rhodopsin.NativeInterop.Vector.CompareTo*"></a>
+  <h4 id="Rhodopsin_NativeInterop_Vector_CompareTo_Rhodopsin_NativeInterop_Vector_" data-uid="Rhodopsin.NativeInterop.Vector.CompareTo(Rhodopsin.NativeInterop.Vector)">CompareTo(Vector)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override sealed int CompareTo(Vector obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Rhodopsin.NativeInterop.Vector.html">Vector</a></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Rhodopsin_NativeInterop_Vector_CompareTo_" data-uid="Rhodopsin.NativeInterop.Vector.CompareTo*"></a>
+  <h4 id="Rhodopsin_NativeInterop_Vector_CompareTo_System_Object_System_Collections_IComparer_" data-uid="Rhodopsin.NativeInterop.Vector.CompareTo(System.Object,System.Collections.IComparer)">CompareTo(object, IComparer)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override sealed int CompareTo(object obj, IComparer comp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.IComparer</span></td>
+        <td><span class="parametername">comp</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Rhodopsin_NativeInterop_Vector_CompareTo_" data-uid="Rhodopsin.NativeInterop.Vector.CompareTo*"></a>
+  <h4 id="Rhodopsin_NativeInterop_Vector_CompareTo_System_Object_" data-uid="Rhodopsin.NativeInterop.Vector.CompareTo(System.Object)">CompareTo(object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override sealed int CompareTo(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Rhodopsin_NativeInterop_Vector_Equals_" data-uid="Rhodopsin.NativeInterop.Vector.Equals*"></a>
+  <h4 id="Rhodopsin_NativeInterop_Vector_Equals_Rhodopsin_NativeInterop_Vector_" data-uid="Rhodopsin.NativeInterop.Vector.Equals(Rhodopsin.NativeInterop.Vector)">Equals(Vector)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override sealed bool Equals(Vector obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Rhodopsin.NativeInterop.Vector.html">Vector</a></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Rhodopsin_NativeInterop_Vector_Equals_" data-uid="Rhodopsin.NativeInterop.Vector.Equals*"></a>
+  <h4 id="Rhodopsin_NativeInterop_Vector_Equals_System_Object_System_Collections_IEqualityComparer_" data-uid="Rhodopsin.NativeInterop.Vector.Equals(System.Object,System.Collections.IEqualityComparer)">Equals(object, IEqualityComparer)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override sealed bool Equals(object obj, IEqualityComparer comp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.IEqualityComparer</span></td>
+        <td><span class="parametername">comp</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Rhodopsin_NativeInterop_Vector_Equals_" data-uid="Rhodopsin.NativeInterop.Vector.Equals*"></a>
+  <h4 id="Rhodopsin_NativeInterop_Vector_Equals_System_Object_" data-uid="Rhodopsin.NativeInterop.Vector.Equals(System.Object)">Equals(object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override sealed bool Equals(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.ValueType.Equals(object)</span></div>
+
+
+  <a id="Rhodopsin_NativeInterop_Vector_FromCLRString_" data-uid="Rhodopsin.NativeInterop.Vector.FromCLRString*"></a>
+  <h4 id="Rhodopsin_NativeInterop_Vector_FromCLRString" data-uid="Rhodopsin.NativeInterop.Vector.FromCLRString">FromCLRString()</h4>
+  <div class="markdown level1 summary"><p>Marshals strings inside the vector as .NET CLR-style UTF-16 encoded string. This exists because native languages such as Rust and C++ can potentially encode strings faster than .NET CLR.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;string&gt; FromCLRString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;<span class="xref">string</span>&gt;</td>
+        <td><p>An <code>IEnumerable&lt;String&gt;</code> representing all the strings in the vector in original order.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Rhodopsin_NativeInterop_Vector_FromCStrAsPtr_" data-uid="Rhodopsin.NativeInterop.Vector.FromCStrAsPtr*"></a>
+  <h4 id="Rhodopsin_NativeInterop_Vector_FromCStrAsPtr" data-uid="Rhodopsin.NativeInterop.Vector.FromCStrAsPtr">FromCStrAsPtr()</h4>
+  <div class="markdown level1 summary"><p>Marshals strings inside the vector as C-style NUL terminated strings.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;string&gt; FromCStrAsPtr()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;<span class="xref">string</span>&gt;</td>
+        <td><p>An <code>IEnumerable&lt;String&gt;</code> representing all the strings in the vector in original order.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Rhodopsin_NativeInterop_Vector_FromCStrAsPtr_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>When operating on a large amount of data, this might become a performance bottleneck. Consider converting the string into a vector of UTF-16 beforehand and use <a class="xref" href="Rhodopsin.NativeInterop.Vector.html#Rhodopsin_NativeInterop_Vector_FromCLRString">FromCLRString()</a> instead.</p>
+</div>
+
+
+  <a id="Rhodopsin_NativeInterop_Vector_FromEnumerable_" data-uid="Rhodopsin.NativeInterop.Vector.FromEnumerable*"></a>
+  <h4 id="Rhodopsin_NativeInterop_Vector_FromEnumerable" data-uid="Rhodopsin.NativeInterop.Vector.FromEnumerable">FromEnumerable()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void FromEnumerable()</code></pre>
+  </div>
+
+
+  <a id="Rhodopsin_NativeInterop_Vector_FromRustString_" data-uid="Rhodopsin.NativeInterop.Vector.FromRustString*"></a>
+  <h4 id="Rhodopsin_NativeInterop_Vector_FromRustString" data-uid="Rhodopsin.NativeInterop.Vector.FromRustString">FromRustString()</h4>
+  <div class="markdown level1 summary"><p>Marshals strings inside the vector as Rust-style UTF-8 encoded strings.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;string&gt; FromRustString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;<span class="xref">string</span>&gt;</td>
+        <td><p>An <code>IEnumerable&lt;String&gt;</code> representing all the strings in the vector in original order.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Rhodopsin_NativeInterop_Vector_FromRustString_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><strong>This method preserves embedded NUL character.</strong> When operating on a large amount of data, this might become a performance bottleneck. Consider converting the string into a vector of UTF-16 beforehand and use <a class="xref" href="Rhodopsin.NativeInterop.Vector.html#Rhodopsin_NativeInterop_Vector_FromCLRString">FromCLRString()</a> instead.</p>
+</div>
+
+
+  <a id="Rhodopsin_NativeInterop_Vector_GetHashCode_" data-uid="Rhodopsin.NativeInterop.Vector.GetHashCode*"></a>
+  <h4 id="Rhodopsin_NativeInterop_Vector_GetHashCode" data-uid="Rhodopsin.NativeInterop.Vector.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override sealed int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.ValueType.GetHashCode()</span></div>
+
+
+  <a id="Rhodopsin_NativeInterop_Vector_GetHashCode_" data-uid="Rhodopsin.NativeInterop.Vector.GetHashCode*"></a>
+  <h4 id="Rhodopsin_NativeInterop_Vector_GetHashCode_System_Collections_IEqualityComparer_" data-uid="Rhodopsin.NativeInterop.Vector.GetHashCode(System.Collections.IEqualityComparer)">GetHashCode(IEqualityComparer)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override sealed int GetHashCode(IEqualityComparer comp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IEqualityComparer</span></td>
+        <td><span class="parametername">comp</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IEquatable&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.IStructuralEquatable</span>
+  </div>
+  <div>
+      <span class="xref">System.IComparable&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.IComparable</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.IStructuralComparable</span>
+  </div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
