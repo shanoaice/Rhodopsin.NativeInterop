@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Rhodopsin.NativeInterop.CLRString.html",
-          "hash": "8jMFP0DRUchW0Jd8F0vLLomjdsozH+gBkSIhzLcsh/o="
+          "hash": "EGDMsDdoy04D96D/mxnQl35aTcKLmy/4w/q3WSKZvI4="
         }
       },
       "version": ""
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Rhodopsin.NativeInterop.RustString.html",
-          "hash": "6/LrwhoKz9uAnXBnZKNJFBitPbnkn9rGZGRZ+ByHBrs="
+          "hash": "qpIxXHpMrGuMas5SVLH5Ks5pxf7LAIvCt2apffJE2Zo="
         }
       },
       "version": ""
@@ -65,17 +65,6 @@
         ".html": {
           "relative_path": "api/Rhodopsin.NativeInterop.html",
           "hash": "zpdZLwC0Taw08hfZkBf3w9Y/WIcTAhJIj41iv7W5X2s="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "api/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "api/index.html",
-          "hash": "oHIDVbaxe6xGEAXMPV3qVnZfWurNK29DBa7edUuXVbg="
         }
       },
       "version": ""
@@ -130,7 +119,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "aVe9U1RxWP3P5E5X/x2rL8jCuFlqix3bHKxtkjZ3zxg="
+          "hash": "ojkxqvB0Pq/rxVDh8XWPyDjXVEz/uZwosbyONga5lBI="
         }
       },
       "version": ""
