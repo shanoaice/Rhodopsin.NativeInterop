@@ -43,7 +43,7 @@ type RustString(strPtr: nativeint, strSize: unativeint) =
     /// Decodes UTF-8 encoded Rust string and returns a UTF-16 encoded standard <c>System.String</c>.
     /// </summary>
     /// <remarks>
-    /// This will not alter the original string, thus it is safe to pass in a non-mut Rust pointer.
+    /// This <b>requires allocation</b> and <b>will not alter the original string</b>, thus it is safe to pass in a non-mut Rust pointer.
     /// </remarks>
     override this.ToString() =
         let rawPtr = NativeInterop.NativePtr.ofNativeInt<byte> this.Pointer
@@ -81,7 +81,7 @@ type CLRString(strPtr: nativeint, strSize: unativeint) =
     member this.Size = strSize
 
     /// <summary>
-    /// Returns the original <c>System.String</c> representation of the string. Note that this requires allocation, thus you should avoid using this whenever possible and use normal <c>System.String</c> instead.
+    /// Returns the original <c>System.String</c> representation of the string. Note that this requires allocation, thus you should avoid using this unless you are receiving a <c>CLRString</c> instance from FFI.
     /// </summary>
     override this.ToString() =
         let rawPtr = NativeInterop.NativePtr.ofNativeInt<byte> this.Pointer
