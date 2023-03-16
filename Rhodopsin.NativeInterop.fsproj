@@ -138,6 +138,7 @@
     <Content Include="docfx_project\.gitignore">
       <Link>src\docfx_project\.gitignore</Link>
     </Content>
+    <Content Include="LICENSE" />
   </ItemGroup>
 
   <ItemGroup>
