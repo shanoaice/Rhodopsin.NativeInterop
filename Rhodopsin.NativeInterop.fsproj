@@ -1,10 +1,9 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
-
   <ItemGroup>
     <Compile Include="src\Free.fs" />
     <Compile Include="src\String.fs" />
@@ -140,7 +139,6 @@
     </Content>
     <Content Include="LICENSE" />
   </ItemGroup>
-
   <ItemGroup>
     <Folder Include="docfx_project\apidoc">
       <Link>src\docfx_project\apidoc</Link>
@@ -152,5 +150,5 @@
       <Link>src\docfx_project\src</Link>
     </Folder>
   </ItemGroup>
-
+  <Import Project=".paket\Paket.Restore.targets" />
 </Project>
