@@ -1,8 +1,8 @@
 - name: Introduction
-  href: intro.md
-- name: Converting Between .NET CLR String and Other String Format
+  href: ../index.md
+- name: Strings
   href: string.md
-- name: Working with Vectors
+- name: Vectors
   href: vector.md
-- name: Working with Tagged Unions
+- name: Tagged Unions
   href: tagged-union.md
