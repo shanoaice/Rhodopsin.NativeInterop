@@ -62,7 +62,7 @@ type Vector(vecBuffer: nativeint, vecLength: unativeint, vecCapacity: unativeint
     /// When operating on a large amount of data, this might become a performance bottleneck. Consider converting the string into a vector of UTF-16 beforehand and use <see cref="M:Rhodopsin.NativeInterop.Vector.FromCLRString"/> instead.
     /// </remarks>
     /// <returns>An <c>IEnumerable&lt;String&gt;</c> representing all the strings in the vector in original order.</returns>
-    member this.FromCStrAsPtr() =
+    member this.MarshalVecCStr() =
         let rawPtr = NativeInterop.NativePtr.ofNativeInt<nativeint> this.Buffer
         let length = this.Length
 
@@ -78,7 +78,7 @@ type Vector(vecBuffer: nativeint, vecLength: unativeint, vecCapacity: unativeint
     /// <b>This method preserves embedded NUL character.</b> When operating on a large amount of data, this might become a performance bottleneck. Consider converting the string into a vector of UTF-16 beforehand and use <see cref="M:Rhodopsin.NativeInterop.Vector.FromCLRString"/> instead.
     /// </remarks>
     /// <returns>An <c>IEnumerable&lt;String&gt;</c> representing all the strings in the vector in original order.</returns>
-    member this.FromRustString() =
+    member this.MarshalVecRustString() =
         let rawPtr = NativeInterop.NativePtr.ofNativeInt<RustString> this.Buffer
         let length = this.Length
 
@@ -95,7 +95,7 @@ type Vector(vecBuffer: nativeint, vecLength: unativeint, vecCapacity: unativeint
     /// Marshals strings inside the vector as .NET CLR-style UTF-16 encoded string. This exists because native languages such as Rust and C++ can potentially encode strings faster than .NET CLR.
     /// </summary>
     /// <returns>An <c>IEnumerable&lt;String&gt;</c> representing all the strings in the vector in original order.</returns>
-    member this.FromCLRString() =
+    member this.MarshalVecCLRString() =
         let rawPtr = NativeInterop.NativePtr.ofNativeInt<CLRString> this.Buffer
         let length = this.Length
 
