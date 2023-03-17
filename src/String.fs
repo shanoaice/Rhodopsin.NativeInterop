@@ -23,7 +23,7 @@ type FFIStringPolicy =
     | CLRString = 2
 
 /// <summary>
-/// Represents raw parts of a Rust <c>String</c>, encoded in UTF-8. Content in ptr does not need to be null-terminated and can contain embedded null character.
+/// Represents raw parts of a Rust <c>String</c>, encoded in UTF-8. The string does not need to be null-terminated and can contain embedded null character.
 /// </summary>
 [<Struct; StructLayout(LayoutKind.Sequential)>]
 type RustString(strPtr: nativeint, strSize: unativeint) =
@@ -64,7 +64,7 @@ type RustString(strPtr: nativeint, strSize: unativeint) =
         RustString(pointer, unativeint utf8Bytes.Length)
 
 /// <summary>
-/// Represents raw parts of a .NET CLR <c>System.String</c>, encoded in UTF-16. Content in ptr does not need to be null-terminated and can contain embedded null character.
+/// Represents raw parts of a .NET CLR <c>System.String</c>, encoded in UTF-16. The string does not need to be null-terminated and can contain embedded null character.
 /// </summary>
 [<Struct; StructLayout(LayoutKind.Sequential)>]
 type CLRString(strPtr: nativeint, strSize: unativeint) =
