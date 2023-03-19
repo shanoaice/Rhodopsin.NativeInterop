@@ -5,7 +5,7 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="src\Free.fs" />
+    <Compile Include="src\Destroy.fs" />
     <Compile Include="src\String.fs" />
     <Compile Include="src\Vector.fs" />
     <Content Include="docfx_project\_site\styles\search-worker.min.js">
@@ -138,6 +138,7 @@
       <Link>src\docfx_project\.gitignore</Link>
     </Content>
     <Content Include="LICENSE" />
+    <Content Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="docfx_project\apidoc">
