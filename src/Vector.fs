@@ -56,22 +56,6 @@ type Vector(vecBuffer: nativeint, vecLength: unativeint, vecCapacity: unativeint
         new ReadOnlySpan<'T>(NativeInterop.NativePtr.toVoidPtr rawPtr, int this.Length)
 
     /// <summary>
-    /// Marshals strings inside the vector as C-style NUL terminated strings.
-    /// </summary>
-    /// <remarks>
-    /// When operating on a large amount of data, this might become a performance bottleneck. Consider converting the string into a vector of UTF-16 beforehand and use <see cref="M:Rhodopsin.NativeInterop.Vector.FromCLRString"/> instead.
-    /// </remarks>
-    /// <returns>An <c>IEnumerable&lt;String&gt;</c> representing all the strings in the vector in original order.</returns>
-    member this.MarshalVecCStr() =
-        let rawPtr = NativeInterop.NativePtr.ofNativeInt<nativeint> this.Buffer
-        let length = this.Length
-
-        seq {
-            for i in 0 .. (int length - 1) do
-                Marshal.PtrToStringAnsi(NativeInterop.NativePtr.add rawPtr i |> NativeInterop.NativePtr.toNativeInt)
-        }
-
-    /// <summary>
     /// Marshals strings inside the vector as Rust-style UTF-8 encoded strings.
     /// </summary>
     /// <remarks>
