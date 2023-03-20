@@ -59,28 +59,28 @@ type Vector(vecBuffer: nativeint, vecLength: unativeint, vecCapacity: unativeint
     /// Marshals strings inside the vector as Rust-style UTF-8 encoded strings.
     /// </summary>
     /// <remarks>
-    /// <b>This method preserves embedded NUL character.</b> When operating on a large amount of data, this might become a performance bottleneck. Consider converting the string into a vector of UTF-16 beforehand and use <see cref="M:Rhodopsin.NativeInterop.Vector.FromCLRString"/> instead.
+    /// <b>This method preserves embedded NUL character.</b> When operating on a large amount of data, this might become a performance bottleneck. Consider converting the string into a vector of UTF-16 beforehand and use <see cref="M:Rhodopsin.NativeInterop.Vector.FromVecUTF16String"/> instead.
     /// </remarks>
     /// <returns>An <c>IEnumerable&lt;String&gt;</c> representing all the strings in the vector in original order.</returns>
-    member this.MarshalVecRustString() =
-        let rawPtr = NativeInterop.NativePtr.ofNativeInt<RustString> this.Buffer
+    member this.MarshalVecUTF8String() =
+        let rawPtr = NativeInterop.NativePtr.ofNativeInt<UTF8String> this.Buffer
         let length = this.Length
 
         seq {
             for i in 0 .. (int length - 1) do
                 Marshal
-                    .PtrToStructure<RustString>(
+                    .PtrToStructure<UTF8String>(
                         NativeInterop.NativePtr.add rawPtr i |> NativeInterop.NativePtr.toNativeInt
                     )
                     .ToString()
         }
 
     /// <summary>
-    /// Marshals strings inside the vector as .NET CLR-style UTF-16 encoded string. This exists because native languages such as Rust and C++ can potentially encode strings faster than .NET CLR.
+    /// Marshals strings inside the vector as UTF-16 encoded string. This exists because native languages such as Rust and C++ can potentially encode strings faster than .NET CLR.
     /// </summary>
     /// <returns>An <c>IEnumerable&lt;String&gt;</c> representing all the strings in the vector in original order.</returns>
-    member this.MarshalVecCLRString() =
-        let rawPtr = NativeInterop.NativePtr.ofNativeInt<CLRString> this.Buffer
+    member this.MarshalVecUTF16String() =
+        let rawPtr = NativeInterop.NativePtr.ofNativeInt<UTF16String> this.Buffer
         let length = this.Length
 
         seq {
