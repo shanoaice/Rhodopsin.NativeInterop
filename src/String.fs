@@ -1,4 +1,5 @@
 ﻿namespace Rhodopsin.NativeInterop
+#nowarn "9"
 
 open System
 open System.Runtime.InteropServices
